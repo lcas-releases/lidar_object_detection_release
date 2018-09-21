@@ -1,0 +1,17 @@
+ros-kinetic-lidar-object-detection (0.0.2-0xenial) xenial; urgency=high
+
+  * add tf_conversions
+  * added nav_msgs dep
+  * more fixed
+  * attempt to better install and fix build problems
+  * changed to use cv_bridge
+  * fix two bugs in the cloud normailization
+  * update intensity model
+  * remove third parties
+  * ready to release
+  * Initial commit
+  * Contributors: Kevin Li Sun, Marc Hanheide, kevin
+
+ -- Zhi Yan <zhi.yan@utbm.fr>  Thu, 20 Sep 2018 23:00:00 -0000
+
+

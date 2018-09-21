@@ -1,0 +1,12 @@
+Source: ros-kinetic-lidar-object-detection
+Section: misc
+Priority: extra
+Maintainer: Zhi Yan <zhi.yan@utbm.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf-conversions, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-lidar-object-detection
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cv-bridge, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf-conversions, ros-kinetic-visualization-msgs
+Description: Light-weight real-time high-accuracy point cloud clustering.
